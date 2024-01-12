@@ -1,0 +1,13 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <_LogMessageAssembly>$(MSBuildThisFileDirectory)..\bin\$(Configuration)\netstandard2.0\LogMessage.dll</_LogMessageAssembly>
+  </PropertyGroup>
+
+  <UsingTask TaskName="LogMessageTask" AssemblyFile="$(_LogMessageAssembly)" />
+
+  <Target Name="DoLogMessage" BeforeTargets="Build">
+    <LogMessageTask Message="Hello from the 'DoLogMessage' target!" />
+  </Target>
+
+</Project>

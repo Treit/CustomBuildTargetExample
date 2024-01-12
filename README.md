@@ -1,2 +1,2 @@
-# CustomBuildTargetExample
-Demonstrates simple custom build targets in msbuild
+# Custom Build Example
+Demonstrates simple custom build tasks and targets for msbuild.
