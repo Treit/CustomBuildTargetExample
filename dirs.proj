@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.Build.Traversal">
+  <ItemGroup>
+    <ProjectFile Include="CustomBuildTask\LogMessage.csproj" />
+    <ProjectFile Include="TestProgram\TestProgram.csproj" />
+  </ItemGroup>
+</Project>
